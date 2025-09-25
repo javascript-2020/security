@@ -3,6 +3,7 @@ sysinternals - process explorer
 sysinternals - procmon
 sysinternals - tcpview
 sysinternals - sysmon
+sysinternals - autorun
 
 
 🔐 Step 1: Lock Down the Physical
