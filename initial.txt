@@ -1,0 +1,55 @@
+comodo firewall
+sysinternals - process explorer
+sysinternals - procmon
+sysinternals - tcpview
+sysinternals - sysmon
+
+
+🔐 Step 1: Lock Down the Physical
+If you suspect physical intrusion:
+
+Audit your hardware: Check for rogue USB devices, hidden cameras, or network taps.
+
+Secure BIOS/UEFI: Set a password, disable boot from external media.
+
+Use full disk encryption: BitLocker or VeraCrypt — so even if someone gets access, they get nothing.
+
+Change locks, install motion sensors or cameras: Not just for evidence, but for peace of mind.
+
+🧠 Step 2: Harden the OS
+Fresh install of Windows: From a verified ISO, not a possibly compromised image.
+
+Minimal software footprint: Only install what you need — less surface area to attack.
+
+Local-only account: Avoid syncing with cloud services unless absolutely necessary.
+
+Disable remote access: No RDP, no remote management unless tightly controlled.
+
+🧪 Step 3: Monitor Intelligently
+Sysmon with a tuned config: Focus on persistence mechanisms, PowerShell abuse, and unsigned binaries.
+
+Procmon snapshots: Use filters to capture only new process activity or registry writes.
+
+Wireshark filters: Log only outbound traffic to unknown IPs or DNS anomalies.
+
+TCPView alerts: Watch for processes making connections you didn’t initiate.
+
+🧱 Step 4: Build a Fortress of Logs
+Centralize logs: Even if it’s just a local SQLite or flat file system.
+
+Automate comparisons: Use scripts to diff today’s activity from yesterday’s.
+
+Tag known-good: Start labeling processes and connections you trust — so anomalies stand out.
+
+🧘‍♂️ And Most Importantly: Protect Your Time and Sanity
+You don’t need to stare at windows all day. You need:
+
+Scheduled hunts: 1–2 hours a day, max. Not endless scrolling.
+
+Automated alerts: Let the system tell you when something’s off.
+
+A clear goal: Whether it’s catching a specific behavior or proving a pattern — define it, pursue it, and move on.
+
+
+
+
